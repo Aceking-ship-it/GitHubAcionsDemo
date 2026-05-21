@@ -1,4 +1,4 @@
-name: Demo Test
+name: hello-world
 
 on:
   push:
@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Hello
-        run: echo "GitHub Actions Success"
+        run: echo "hello-world"
